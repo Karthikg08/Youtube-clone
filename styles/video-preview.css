@@ -1,0 +1,56 @@
+
+     
+      
+      .video-preview{
+        
+        width: 100%;
+      
+        
+      }
+      
+      
+      .thumbnail{
+        width: 100%;
+       
+        
+      }
+      .thumnail-row{
+        margin-bottom: 12px;
+      }
+    
+      .profile-pic{
+        width: 40px;
+        border-radius: 30px;   
+      }
+      
+      .channel-des-grid{
+        display:grid ;
+        grid-template-columns: 50px 1fr;
+        
+      }
+      .video-title{
+        font-family: 'roboto';
+        margin: 0;
+        font-weight:500 ;
+        font-size: 15px;
+        
+      }
+      .video-stats{
+        margin-top: 5px;
+        font-size:12px;
+        font-weight: 350;
+      }
+      .channel-name{
+        margin: 0;
+        margin-top: 12px;
+        font-size:12px;
+        font-weight: 350;
+        
+      }
+      .channel-grid{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr ;
+        column-gap: 20px;
+        row-gap: 40px;
+      }
+  

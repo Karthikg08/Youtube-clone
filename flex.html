@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>flex pratice </title>
+    <style>
+
+      .flex-box{
+        display: flex;
+        flex-direction: row;
+        margin-top: 20px;
+        border-width: 1px;
+        border-color: gray;
+        border-style: solid;
+        justify-content:space-between;
+      }
+      .di-1{
+        background-color: #f08080;
+        width: 100px;
+      }
+       .di-2{ 
+        background-color: aquamarine;
+        width: 100px;
+        flex: 1;
+      
+      }
+      .di-3{
+        background-color: bisque;
+         width: 100px;
+      }
+   
+    </style>
+     
+  </head>
+  <body>
+   
+    <div class="flex-box">
+      <div class="di-2" >div 2 <p>karhik<p></p></div>
+      <div class="di-1" >div 1</div>
+      <div class="di-3" >div 3</div>
+    </div>
+     <div class="flex-box">
+      <div class="di-2" >div 2 <p>karhik<p></p></div>
+      <div class="di-1" >div 1</div>
+      <div class="di-3" >div 3</div>
+    </div>
+  </body>
+</html>

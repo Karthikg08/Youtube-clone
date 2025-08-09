@@ -1,0 +1,200 @@
+  .body{
+    padding-bottom: 100px;
+  }
+  
+  
+  .add-button{
+    color: black;
+    background-color: rgb(247, 209, 43);
+    border: none;
+    border-radius: 20px;
+    padding-bottom: 8px;
+    padding-top: 8px;
+    padding-left:8px ;
+    padding-right: 8px;
+    font-weight: bold;
+    text-decoration: none;
+
+  }
+  .buy-button{
+    color: black;
+    background-color: rgb(243, 162, 10);
+    border: none;
+    padding-bottom: 8px;
+    padding-top: 8px;
+    padding-left:8px ;
+    padding-right: 8px;
+    border-radius: 20px;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  hr{
+    margin-top: 15px;
+  }
+  .nike-title{
+    font-family: 'aboreto';
+    color: blue;
+  }
+  .body{
+    padding-bottom: 100px;
+  }
+
+
+
+
+
+
+   p{
+    font-family: 'roboto';
+  }
+  .shop{
+    font-family: arial;
+  }
+  .apple{
+    font-size: 20px;
+  }
+  .learn:hover{
+    color: blue;
+    cursor: pointer;
+
+  }
+
+
+
+  .head{
+  margin-bottom: 0px;
+}
+.btp{
+  margin-top: 0px;
+  margin-left: 0px;
+  font-size: medium;
+}
+.gs{
+  padding-top: 5px ;
+  padding-bottom: 5px;
+  padding-right: 8px;
+  padding-left: 8px;
+  background-color: green;
+  color: white;
+  border-radius: 8px;
+  border: none;
+  font-size: medium;
+  text-decoration: none;
+ 
+}
+.gs:hover{
+  cursor: pointer;
+  opacity: 0.5;
+}
+.google-search{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: medium;
+  font-family: 'roboto';
+  padding-left: 8px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  width: 300px;
+  border-radius: 14px;
+  border-width: 0px;
+  box-shadow: 2px 2px 11px rgba(0,0,0, 0.7);
+  
+}
+.google-search:hover{
+  cursor:text
+
+ 
+}
+.heading{
+  font-size: 30px;
+  font-weight: 700px;
+}
+.content{
+   margin-left: 10px;
+  margin-right: 10px;
+}
+.youmu{
+  display: inline-block;
+  background-color: rgb(19, 19, 27);
+  color: white;
+  margin-bottom: 50px;
+  margin-top: 30px;
+  box-shadow: 1px 1px 30px rgba(216, 10, 10, 0.8);
+ 
+}
+.grid-prac{
+  
+  display:grid;
+  grid-template-columns: 200px 75px;
+
+}
+.row1{
+  display:inline-block;
+ 
+  background-color: aqua;
+}
+.column1{
+  display: inline-block;
+  background-color: aquamarine;
+  
+}
+.outer{
+  padding-bottom: 15px;
+}
+.profile-pic{
+  width: 50px;
+}
+.profile-img{
+  width: 50px;
+  border-radius: 25px;
+}
+.comment{
+  display: flex;
+  flex-direction: row;
+  height: 100px;
+
+}
+.title{
+  display: flex;
+  height: 0;
+  margin-top: 20px;
+  align-items: center;
+  padding-left: 10px;
+ 
+ 
+  
+}
+.gray-name{
+  margin-left: 5px;
+  color: rgb(102, 100, 100);
+}
+.content-comment{
+ flex: 1;
+  height: 50px;
+  align-items: center;
+  
+  padding-left: 10px;
+ 
+}
+.whole-con{
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  background-color: rgb(222, 239, 253);
+  border-bottom-left-radius: 20px;
+  border-top-right-radius: 20px;
+  margin-right: 10px;
+}
+#positions
+.div1{
+  position:relative;
+  height:100px;
+  width:100px;
+}
+.div2{
+   position:absolute;
+   bottom: 10px;
+   right: 8px;
+   
+}
